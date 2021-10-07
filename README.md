@@ -8,7 +8,7 @@ All Logging in managed by AWS CloudWatch.
 
 **Use Postman (Highly Recommended)**
 
-*send all requests through Body as raw JSON*
+Send all requests through Body as raw JSON
 
 ### Website URL
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/
