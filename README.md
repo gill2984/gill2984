@@ -31,6 +31,7 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 Need to use Postman to submit Post request, in JSON Body
 
 #### Sample POST Request Format
+```
 {
     "skateboardId":"random 5 digit number",
     "owner": “First Name",
@@ -40,8 +41,10 @@ Need to use Postman to submit Post request, in JSON Body
     "stat": "Either Available or Unavailable",
     "image": "image URL"
 }        
+```
 
 #### Example POST Request
+```
 {
     "skateboardId":"10044",
     "owner": "Luke",
@@ -51,7 +54,7 @@ Need to use Postman to submit Post request, in JSON Body
     "stat": "Available",
     "image": "https://drive.google.com/file/d/1YzgwAfeTzEAUMpOEnQQrDmv9T3DZMZ5/view?usp=sharing"
 }        
-
+```
 ### PATCH Request
 Key function is to change skateboard status available to unavailable or vice versa. Can also be used to change 1 parameter.
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
@@ -59,17 +62,21 @@ Send Request through JSON Body
 
 
 #### Send Request as shown below 
+```
 {
     "skateboardId":"5 digit code",
     "updateKey": "stat",
     "updateValue": "Unavailable"
 }
+```
 ### DELETE Request
 Used to delete skateboards
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 Send Request through JSON Body
 
 #### Send Request as shown below 
+```
 {
     "skateboardId": "5 digit skateboardId of which skateboard you wish to delete"
 }
+```
