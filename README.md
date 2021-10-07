@@ -4,26 +4,21 @@
 ### Approach
 Created in AWS API Gateway, coded in Node.js using Lambda, used DynamoDB for the database
 Using PostMan, Get, Post, Delete, Patch commands can be used. Information is sent and received using JSON
-All Logging in managed by AWS CloudWatch
+All Logging in managed by AWS CloudWatch.
+
+**Use Postman (Highly Recommended)**
 
 *send all requests through Body as raw JSON*
 
 ### Website URL
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/
 
-A health check can be formed to see the status of the server using the following link
-https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/health
 
 ## How to Perform Requests:
+
 ### GET Request
-Used to get Skateboard Information that is already stored in the database, Key required to access data. 
-https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
-
-Key = skateboardId
-Value = 5 digit assigned number. (Can test using: 10011, 10022, 10033, 10044)
-
-Sample Get Request URL
-https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard?skateboardId=10011
+Use following link to get access to all stored skateboards
+https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboards
 
 ### POST Request
 Used to create new skateboards
@@ -56,6 +51,17 @@ Need to use Postman to submit Post request, in JSON Body
     "image": "https://drive.google.com/file/d/1YzgwAfeTzEAUMpOEnQQrDmv9T3DZMZ5/view?usp=sharing"
 }        
 ```
+### GET Request
+Used to get Skateboard Information that is already stored in the database, Key required to access data. 
+https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
+
+Key = skateboardId
+Value = 5 digit assigned number. (Can test using: 10011, 10022, 10033, 10044)
+
+Sample Get Request URL
+https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard?skateboardId=10011
+
+
 ### PATCH Request
 Key function is to change skateboard status available to unavailable or vice versa. Can also be used to change 1 parameter.
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
