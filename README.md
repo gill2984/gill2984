@@ -25,12 +25,10 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/
 ### POST Request
 Used to create new skateboards.
 
-
-**Send all requests through Request Body as raw JSON**
-
 Need to use Postman to submit Post request
 
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
+**Send all requests through Request Body as raw JSON**
 
 #### Sample POST Request Format
 ```
@@ -72,6 +70,7 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard?skateboard
 Key function is to change skateboard status available to unavailable or vice versa. Can also be used to change 1 parameter.
 
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
+
 **Send Request through Request Body as raw JSON**
 
 
