@@ -23,7 +23,8 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/
 ## How to Perform Requests:
 
 ### POST Request
-Used to create new skateboards
+Used to create new skateboards.
+
 
 **Send all requests through Request Body as raw JSON**
 
@@ -58,6 +59,7 @@ Need to use Postman to submit Post request
 ```
 ### GET Request
 Used to get Skateboard Information that is already stored in the database, Key required to access data. 
+
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 
 Key = skateboardId
@@ -69,6 +71,7 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard?skateboard
 
 ### PATCH Request
 Key function is to change skateboard status available to unavailable or vice versa. Can also be used to change 1 parameter.
+
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 **Send Request through Request Body as raw JSON**
 
@@ -83,13 +86,18 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 ```
 
 ### GET Request
+
 Use following link to get access to all stored skateboards
+
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboards
 
 ### DELETE Request
+
 Used to delete skateboards
+
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
-Send Request through JSON Body
+
+**Send Request through Request Body as raw JSON**
 
 #### Send Request as shown below 
 ```
