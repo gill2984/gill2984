@@ -34,8 +34,8 @@ Need to use Postman to submit Post request, in JSON Body
 ```
 {
     "skateboardId":"random 5 digit number",
-    "owner": “First Name",
-    "brand": "skateboard brand",
+    "owner": “first_name",
+    "brand": "skateboard_brand",
     "color": "color",
     "condition": “pick 1 condition: Like New, Great, Good, Fair, Poor",
     "stat": "Either Available or Unavailable",
