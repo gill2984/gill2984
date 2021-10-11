@@ -22,10 +22,6 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/
 
 ## How to Perform Requests:
 
-### GET Request
-Use following link to get access to all stored skateboards
-https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboards
-
 ### POST Request
 Used to create new skateboards
 
@@ -84,6 +80,11 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
     "updateValue": "Unavailable"
 }
 ```
+
+### GET Request
+Use following link to get access to all stored skateboards
+https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboards
+
 ### DELETE Request
 Used to delete skateboards
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
