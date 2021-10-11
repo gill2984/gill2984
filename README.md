@@ -110,7 +110,7 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 
 **Send Request through Request Body as raw JSON**
 
-#### Send Request as shown below 
+#### Send DELETE Request as shown below 
 ```
 {
     "skateboardId": "5 digit skateboardId of which skateboard you wish to delete"
