@@ -27,7 +27,9 @@ Used to create new skateboards.
 
 Need to use Postman to submit Post request
 
+
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
+
 **Send all requests through Request Body as raw JSON**
 
 #### Sample POST Request Format
@@ -72,7 +74,6 @@ Key function is to change skateboard status available to unavailable or vice ver
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 
 **Send Request through Request Body as raw JSON**
-
 
 #### Send Request as shown below 
 ```
