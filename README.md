@@ -2,7 +2,7 @@
 #### Created by Kevin Gill
 
 ### General Approach
-Created in AWS API Gateway, coded in Node.js using Lambda, used DynamoDB for the database.
+Created in AWS API Gateway, coded in Node.js using Lambda, used DynamoDB (NoSQL) for the database.
 
 Using PostMan, Get, Post, Delete, Patch commands can be used. 
 
