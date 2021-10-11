@@ -116,3 +116,14 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
     "skateboardId": "5 digit skateboardId of which skateboard you wish to delete"
 }
 ```
+
+### HMI Approach
+
+I am currently still working on the HMI. 
+
+Using Angular, its being designed in HTML and will use JavaScript to call API Functions.
+
+Adding a secure login system and a singlar text box to create, read, modify, and delete skateboard data. 
+
+Developing a market place page to view images and data of skateboards
+
