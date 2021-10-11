@@ -64,9 +64,7 @@ Used to get Skateboard Information that is already stored in the database, Key r
 
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 
-Key = skateboardId.
-
-Key Value = 5 digit assigned number. (Can test using: 10011, 10022, 10033, 10044)
+Key = skateboardId. Key Value = 5 digit assigned number. (Can test using: 10011, 10022, 10033, 10044)
 
 
 Sample Get Request URL
