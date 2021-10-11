@@ -3,9 +3,13 @@
 
 ### General Approach
 Created in AWS API Gateway, coded in Node.js using Lambda, used DynamoDB for the database.
+
 Using PostMan, Get, Post, Delete, Patch commands can be used. 
+
 Information is sent and received using JSON.
+
 All Logging in managed by AWS CloudWatch.
+
 
 **Use Postman (Highly Recommended)**
 
