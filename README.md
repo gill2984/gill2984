@@ -76,7 +76,7 @@ Sample Get Request URL
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard?skateboardId=10011
 
 ### PATCH Request
-Primary function is to change skateboard status from Available to Unavailable or vice versa. Can also be used to change 1 parameter. 
+Primary function is to change skateboard status from Available to Unavailable or vice versa. Can also be used to change other table values. 
 
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 
