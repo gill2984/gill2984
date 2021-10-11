@@ -11,7 +11,7 @@ Information is sent and received using JSON.
 All Logging in managed by AWS CloudWatch.
 
 
-#### Helpful Information
+### Helpful Information
 
 **Use Postman (Highly Recommended)**
 
