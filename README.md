@@ -42,7 +42,7 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
     "owner": “first_name",
     "brand": "skateboard_brand",
     "color": "color",
-    "condition": “pick 1 condition: Like New, Great, Good, Fair, Poor",
+    "condition": “pick 1 condition: New, Like New, Great, Good, Fair, Poor",
     "stat": "Either Available or Unavailable",
     "image": "image URL"
 }        
