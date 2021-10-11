@@ -28,7 +28,8 @@ Used to create new skateboards
 **Send all requests through Request Body as raw JSON**
 
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
-Need to use Postman to submit Post request, in JSON Body
+
+Need to use Postman to submit Post request
 
 #### Sample POST Request Format
 ```
