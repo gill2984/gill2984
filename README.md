@@ -47,7 +47,6 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
     "image": "image URL"
 }        
 ```
-
 #### Example POST Request
 ```
 {
