@@ -18,6 +18,7 @@ All Logging in managed by AWS CloudWatch.
 ### Website URL
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/
 
+"{"message":"Missing Authentication Token"}" is the default result.
 
 ## How to Perform Requests:
 
