@@ -13,11 +13,11 @@ All Logging in managed by AWS CloudWatch.
 
 ### Helpful Information
 
-**Use Postman (Highly Recommended)**
++ **Use Postman (Highly Recommended)**
 
-**Everything is Case Sensitive**
++ **Everything is Case Sensitive**
 
-**Send all requests through Request Body as raw JSON**
++ **Send all requests through Request Body as raw JSON**
 
 
 
