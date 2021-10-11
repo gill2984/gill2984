@@ -60,14 +60,13 @@ https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
 ### GET Request
 Used to get Skateboard Information that is already stored in the database, Key required to access data. 
 
-https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard
+Key = skateboardId.
 
-Key = skateboardId
 Key Value = 5 digit assigned number. (Can test using: 10011, 10022, 10033, 10044)
+
 
 Sample Get Request URL
 https://cqsiq1u6il.execute-api.us-east-2.amazonaws.com/pro/skateboard?skateboardId=10011
-
 
 ### PATCH Request
 Key function is to change skateboard status available to unavailable or vice versa. Can also be used to change 1 parameter.
