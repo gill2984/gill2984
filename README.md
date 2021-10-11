@@ -11,7 +11,11 @@ Information is sent and received using JSON.
 All Logging in managed by AWS CloudWatch.
 
 
+#### Helpful Information
+
 **Use Postman (Highly Recommended)**
+
+**Everything is Case Sensitive**
 
 **Send all requests through Request Body as raw JSON**
 
